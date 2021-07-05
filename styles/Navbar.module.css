@@ -1,0 +1,36 @@
+
+.navarea{
+    background-color: #fff;
+    display: flex;
+    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: .5px solid #ff284f;
+}
+
+.navarea a{
+    text-transform: uppercase;
+    color: #ff284f;
+    letter-spacing: 2.4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navItems a{
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:568px){
+    .navarea{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:536px){
+    .navarea a{
+        font-size: 13px;
+    }
+}

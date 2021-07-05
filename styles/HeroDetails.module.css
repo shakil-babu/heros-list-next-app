@@ -1,0 +1,28 @@
+
+
+.detailsArea{
+    text-align: center;
+}
+
+.name{
+    background-color:#ff284f;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    width: 85%;
+    margin: 30px auto;
+
+}
+
+.name h4{
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.info{
+    background-color: #fff;
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
+}

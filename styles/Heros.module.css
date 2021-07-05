@@ -1,0 +1,33 @@
+
+.herosSection{
+    padding: 40px 0;
+}
+.herosGrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+}
+
+.heroBox{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.heroBox h4{
+    color: #ff284f;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:992px) {
+    .herosGrid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:768px) {
+    .herosGrid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
